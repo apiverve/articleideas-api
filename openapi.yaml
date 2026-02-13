@@ -1,32 +1,36 @@
 openapi: 3.0.4
 info:
   title: Article Ideas Generator
-  description: Article Ideas is a simple tool for generating article ideas. It returns a list of article ideas.
+  description: >-
+    Article Ideas is a simple tool for generating article ideas. It returns a
+    list of article ideas.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
     email: hello@apiverve.com
     url: https://apiverve.com/contact
-  version: 1.0.9
+  version: 1.0.0
 externalDocs:
   description: Learn more about APIVerve
   url: https://docs.apiverve.com?utm_source=openapi
 servers:
-- url: https://api.apiverve.com/
+  - url: https://api.apiverve.com/
 paths:
   /v1/articleideas:
     get:
       summary: Generate Ideas
-      description: Article Ideas is a simple tool for generating article ideas. It returns a list of article ideas.
+      description: Generate article ideas based on a topic using Artificial Intelligence
       operationId: articleideas
       parameters:
-      - name: topic
-        in: query
-        schema:
-          type: string
-        required: true
-        description: The topic for which you want to generate article ideas (up to 50 characters)
-        example: software and technology
+        - name: topic
+          in: query
+          schema:
+            type: string
+          required: true
+          description: >-
+            The topic for which you want to generate article ideas (up to 50
+            characters)
+          example: software and technology
       responses:
         '200':
           description: Successful Response
@@ -42,24 +46,30 @@ paths:
                     type: string
                     description: error
                   data:
-                    type: string
+                    type: object
                     description: data
               example:
                 status: ok
-                error: 
+                error: null
                 data:
                   topic: software and technology
                   topicIdeas: 3
                   topics:
-                  - 'The Future of AI: How Artificial Intelligence is Revolutionizing Software Development'
-                  - 'Breaking Barriers: Exploring the Latest Innovations in Cybersecurity Technology'
-                  - 'Beyond the Metaverse: Emerging Trends and Technologies Shaping the Digital Landscape'
+                    - >-
+                      The Future of AI: How Artificial Intelligence Will
+                      Transform Software and Technology
+                    - >-
+                      Cybersecurity in the Modern Age: Protecting Your Data in a
+                      Connected World
+                    - >-
+                      Cloud Computing Explained: A Beginner's Guide to
+                      Understanding the Cloud
         '401':
           description: Your request was not authorized, or your API Key was invalid
         '404':
           description: Requested resource was not found
         '500':
-          description: A server error has occured, try again later
+          description: A server error has occurred, try again later
 components:
   securitySchemes:
     api_key:
@@ -67,4 +77,4 @@ components:
       name: x-api-key
       in: header
 security:
-- api_key: []
+  - api_key: []
