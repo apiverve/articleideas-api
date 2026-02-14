@@ -12,7 +12,6 @@ namespace APIVerve.API.ArticleIdeasGenerator
     {
         /// <summary>
         /// The topic for which you want to generate article ideas (up to 50 characters)
-        /// Example: software and technology
         /// </summary>
         [JsonProperty("topic")]
         public string Topic { get; set; }
