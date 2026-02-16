@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_articleideas: ^1.1.13
+  apiverve_articleideas: ^1.1.14
 ```
 
 Then run:
