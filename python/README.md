@@ -222,8 +222,9 @@ from apiverve_articleideasgenerator.apiClient import ArticleideasAPIClient
 
 api = ArticleideasAPIClient("[YOUR_API_KEY]")
 
+query = { "topic": "software and technology" }
+
 try:
-    query = { "topic": "software and technology" }
     result = api.execute(query)
     print(result)
 finally:
