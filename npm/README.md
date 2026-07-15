@@ -125,9 +125,9 @@ async function makeRequest() {
     "topic": "software and technology",
     "topicIdeas": 3,
     "topics": [
-      "The Future of AI: How Artificial Intelligence is Revolutionizing Software Development",
-      "Breaking Barriers: Exploring the Latest Innovations in Cybersecurity Technology",
-      "Beyond the Metaverse: Emerging Trends and Technologies Shaping the Digital Landscape"
+      "The Future of AI: How Artificial Intelligence Will Transform Software and Technology",
+      "Cybersecurity in the Modern Age: Protecting Your Data in a Connected World",
+      "Cloud Computing Explained: A Beginner's Guide to Understanding the Cloud"
     ]
   }
 }
