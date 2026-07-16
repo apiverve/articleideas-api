@@ -191,11 +191,34 @@ x-api-key: YOUR_API_KEY_HERE
 Get your API key: [https://apiverve.com](https://apiverve.com)
 
 ### Response Format
-All responses are JSON with this structure:
+
+Every APIVerve endpoint returns the same envelope — check `status`, then read `data`:
+
 ```json
 {
   "status": "ok",
+  "error": null,
   "data": { ... }
+}
+```
+
+### Example Response
+
+A real response from the Article Ideas Generator API:
+
+```json
+{
+  "status": "ok",
+  "error": null,
+  "data": {
+    "topic": "software and technology",
+    "topicIdeas": 3,
+    "topics": [
+      "The Future of AI: How Artificial Intelligence Will Transform Software and Technology",
+      "Cybersecurity in the Modern Age: Protecting Your Data in a Connected World",
+      "Cloud Computing Explained: A Beginner's Guide to Understanding the Cloud"
+    ]
+  }
 }
 ```
 
