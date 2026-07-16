@@ -25,6 +25,9 @@ namespace APIVerve.API.ArticleIdeasGenerator
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
@@ -33,9 +36,21 @@ namespace APIVerve.API.ArticleIdeasGenerator
         public string Topic { get; set; }
 
         [JsonProperty("topicIdeas")]
-        public long TopicIdeas { get; set; }
+        public long? TopicIdeas { get; set; }
 
         [JsonProperty("topics")]
         public string[] Topics { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
