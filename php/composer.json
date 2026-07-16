@@ -1,0 +1,49 @@
+{
+    "name": "apiverve/articleideas",
+    "description": "Article Ideas is a simple tool for generating article ideas. It returns a list of article ideas.",
+    "version": "1.2.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "APIVerve",
+            "email": "hello@apiverve.com",
+            "homepage": "https://apiverve.com"
+        }
+    ],
+    "keywords": [
+        "api",
+        "apiverve",
+        "articleideas",
+        "article ideas",
+        "article ideas generator",
+        "article ideas api",
+        "article ideas tool",
+        "article ideas software"
+    ],
+    "homepage": "https://apiverve.com/marketplace/articleideas?utm_source=php&utm_medium=homepage",
+    "support": {
+        "email": "hello@apiverve.com",
+        "docs": "https://docs.apiverve.com/ref/articleideas",
+        "source": "https://github.com/apiverve/articleideas-API/tree/main/php"
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "APIVerve\\Articleideas\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "APIVerve\\Articleideas\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
