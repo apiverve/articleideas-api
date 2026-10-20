@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Article Ideas Generator
   description: >-
-    Article Ideas is a simple tool for generating article ideas. It returns a
-    list of article ideas.
+    Article Ideas Generator creates article ideas and headline angles for any
+    supplied topic. Pass a keyword up to 50 characters to receive a list of
+    suggested titles and the total idea count.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/articleideas:
     get:
-      summary: Generate Ideas
+      summary: Article Ideas Generator
       description: Generate article ideas based on a topic using Artificial Intelligence
       operationId: articleideas
       parameters:
