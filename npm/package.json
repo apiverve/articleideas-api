@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/articleideas",
-  "version": "1.2.0",
-  "description": "Article Ideas is a simple tool for generating article ideas. It returns a list of article ideas.",
+  "version": "1.2.2",
+  "description": "Article Ideas Generator creates article ideas and headline angles for any supplied topic. Pass a keyword up to 50 characters to receive a list of suggested titles and the total idea count.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "article ideas", "article ideas generator", "article ideas api", "article ideas tool", "article ideas software"
+    "article ideas api", "generate article ideas", "blog post ideas", "headline generator", "content topic brainstorming"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/articleideas-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/articleideas?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/articleideas?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
