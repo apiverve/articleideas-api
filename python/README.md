@@ -1,13 +1,12 @@
 Article Ideas Generator API
 ============
 
-Article Ideas is a simple tool for generating article ideas. It returns a list of article ideas.
+Article Ideas Generator creates article ideas and headline angles for any supplied topic. Pass a keyword up to 50 characters to receive a list of suggested titles and the total idea count.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Article Ideas Generator API](https://apiverve.com/marketplace/articleideas?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-articleideasgenerator.svg)](https://pypi.org/project/apiverve-articleideasgenerator/)
+
+This is a Python wrapper for the [Article Ideas Generator API](https://apiverve.com/marketplace/articleideas?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -29,8 +28,8 @@ pip3 install apiverve-articleideasgenerator
 
 ## Configuration
 
-Before using the articleideas API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the Article Ideas Generator API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -60,7 +59,7 @@ except Exception as e:
 
 ## Usage
 
-The Article Ideas Generator API documentation is found here: [https://docs.apiverve.com/ref/articleideas](https://docs.apiverve.com/ref/articleideas?utm_source=pypi&utm_medium=readme).
+The Article Ideas Generator API documentation is found here: [https://docs.apiverve.com/ref/articleideas](https://docs.apiverve.com/ref/articleideas?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -105,9 +104,9 @@ print(result)
     "topic": "software and technology",
     "topicIdeas": 3,
     "topics": [
-      "The Future of AI: How Artificial Intelligence is Revolutionizing Software Development",
-      "Breaking Barriers: Exploring the Latest Innovations in Cybersecurity Technology",
-      "Beyond the Metaverse: Emerging Trends and Technologies Shaping the Digital Landscape"
+      "The Future of AI: How Artificial Intelligence Will Transform Software and Technology",
+      "Cybersecurity in the Modern Age: Protecting Your Data in a Connected World",
+      "Cloud Computing Explained: A Beginner's Guide to Understanding the Cloud"
     ]
   }
 }
@@ -236,7 +235,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -247,12 +246,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
