@@ -1,6 +1,6 @@
 # Article Ideas Generator API - PHP Package
 
-Article Ideas is a simple tool for generating article ideas. It returns a list of article ideas.
+Article Ideas Generator creates article ideas and headline angles for any supplied topic. Pass a keyword up to 50 characters to receive a list of suggested titles and the total idea count.
 
 ## Installation
 
@@ -87,11 +87,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/articleideas?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/articleideas?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/articleideas?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/articleideas?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/articleideas?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/articleideas?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
