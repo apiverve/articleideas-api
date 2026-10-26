@@ -1,11 +1,11 @@
 # Article Ideas Generator API - Dart/Flutter Client
 
-Article Ideas is a simple tool for generating article ideas. It returns a list of article ideas.
+Article Ideas Generator creates article ideas and headline angles for any supplied topic. Pass a keyword up to 50 characters to receive a list of suggested titles and the total idea count.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_articleideas.svg)](https://pub.dev/packages/apiverve_articleideas)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Article Ideas Generator API](https://apiverve.com/marketplace/articleideas?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Article Ideas Generator API](https://apiverve.com/marketplace/articleideas?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_articleideas: ^1.1.14
+  apiverve_articleideas: ^1.2.3
 ```
 
 Then run:
@@ -55,9 +55,9 @@ void main() async {
     "topic": "software and technology",
     "topicIdeas": 3,
     "topics": [
-      "The Future of AI: How Artificial Intelligence is Revolutionizing Software Development",
-      "Breaking Barriers: Exploring the Latest Innovations in Cybersecurity Technology",
-      "Beyond the Metaverse: Emerging Trends and Technologies Shaping the Digital Landscape"
+      "The Future of AI: How Artificial Intelligence Will Transform Software and Technology",
+      "Cybersecurity in the Modern Age: Protecting Your Data in a Connected World",
+      "Cloud Computing Explained: A Beginner's Guide to Understanding the Cloud"
     ]
   }
 }
@@ -65,12 +65,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Article Ideas Generator API](https://apiverve.com/marketplace/articleideas?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/articleideas](https://docs.apiverve.com/ref/articleideas?utm_source=dart&utm_medium=readme)
+- **API Home:** [Article Ideas Generator API](https://apiverve.com/marketplace/articleideas?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/articleideas](https://docs.apiverve.com/ref/articleideas?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -78,4 +78,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)

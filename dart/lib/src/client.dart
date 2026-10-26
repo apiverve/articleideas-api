@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Article Ideas Generator API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/articleideas?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/articleideas?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [topic] (required) - The topic for which you want to generate article ideas (up to 50 characters)

@@ -1,7 +1,7 @@
 name: apiverve_articleideas
-description: Article Ideas is a simple tool for generating article ideas. It returns a list of article ideas.
-version: 1.1.14
-homepage: https://apiverve.com/marketplace/articleideas?utm_source=dart&utm_medium=homepage
+description: "Article Ideas Generator creates article ideas and headline angles for any supplied topic. Pass a keyword up to 50 characters to receive a list of suggested titles and the total idea count."
+version: 1.2.3
+homepage: https://apiverve.com/marketplace/articleideas?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/articleideas-api/tree/main/dart
 
 environment:
