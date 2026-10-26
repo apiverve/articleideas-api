@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/articleideas",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Article Ideas Generator creates article ideas and headline angles for any supplied topic. Pass a keyword up to 50 characters to receive a list of suggested titles and the total idea count.",
   "main": "index.js",
   "types": "index.d.ts",
