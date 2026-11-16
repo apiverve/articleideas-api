@@ -24,7 +24,7 @@ class ValidationError(ArticleideasAPIClientError):
 class ArticleideasAPIClient:
     # Validation rules for parameters (generated from schema)
     VALIDATION_RULES = {
-        "topic": {"type": "string", "required": True}
+        "topic": {"type": "string", "required": True, "maxLength": 50}
     }
 
     # Format validation patterns
