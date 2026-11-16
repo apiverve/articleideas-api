@@ -49,7 +49,7 @@ final _formatPatterns = {
 /// For more information, visit: https://apiverve.com/marketplace/articleideas?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
-/// * [topic] (required) - The topic for which you want to generate article ideas (up to 50 characters)
+/// * [topic] (required) - The topic for which you want to generate article ideas (up to 50 characters) [maxLength: 50]
 class ArticleideasClient {
   final String apiKey;
   final String baseUrl;
@@ -57,7 +57,7 @@ class ArticleideasClient {
 
   /// Validation rules for parameters.
   static final Map<String, ValidationRule> _validationRules = <String, ValidationRule>{
-    'topic': ValidationRule(type: 'string', required: true),
+    'topic': ValidationRule(type: 'string', required: true, maxLength: 50),
   };
 
   ArticleideasClient(this.apiKey, {
