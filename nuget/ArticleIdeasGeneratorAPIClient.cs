@@ -67,7 +67,7 @@ namespace APIVerve.API.ArticleIdeasGenerator
         /// <summary>Validation rules for parameters</summary>
         private static readonly Dictionary<string, ValidationRule> _validationRules = new Dictionary<string, ValidationRule>
         {
-            { "topic", new ValidationRule { Type = "string", Required = true } }
+            { "topic", new ValidationRule { Type = "string", Required = true, MaxLength = 50 } }
         };
 
         /// <summary>Format validation patterns</summary>
