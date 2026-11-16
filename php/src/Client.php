@@ -34,7 +34,7 @@ class Client
      * Validation rules for parameters
      */
     private const VALIDATION_RULES = [
-        'topic' => ['type' => 'string', 'required' => true]
+        'topic' => ['type' => 'string', 'required' => true, 'maxLength' => 50]
     ];
 
     /**
